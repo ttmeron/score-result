@@ -1,0 +1,225 @@
+/* body{
+    margin: 0;
+} */
+.container{
+   
+    position: relative;
+    width: 575px;
+    height: 385px;
+    
+    background: #1B244A;
+    }
+    .home{
+        position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 38px;
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    
+    text-align: center;
+    
+    color: #EEEEEE;
+    
+    
+    }
+    .guest{
+        position: absolute;
+        width: 149px;
+        height: 36px;
+        left: 340px;
+        top: 38px;
+        
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+        /* identical to box height, or 90% */
+        
+        text-align: center;
+        
+        color: #EEEEEE;
+        
+    }
+    .score-container-home{
+        position: absolute;
+        width: 155px;
+        height: 120px;
+        left: 82px;
+        top: 150px;
+        
+        background: #080001;
+        border-radius: 5px;
+    }
+    .score-container-guest{
+        position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 150px;
+    
+    background: #080001;
+    border-radius: 5px;
+    
+    }
+    .home-points-text{
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 20px;
+    top: -110px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    
+    text-align: center;
+    
+    color: #F94F6D;
+        
+    }
+    .guest-points-text{
+        position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 20px;
+    top: -110px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    
+    text-align: center;
+    
+    color: #F94F6D;
+    
+        
+        
+    }
+    .add-points-btns-guest{
+    
+    position: absolute;
+        background-color: gold;
+    
+    left: 250px;
+    }
+    .plus-one-point{
+        box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: -250px;
+    top: 140px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+    }
+    .p1{
+        position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left:0px;
+    top: -10px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    
+    text-align: center;
+    
+    color: #9AABD8;
+    
+    }
+    .plus-two-point{
+        box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: -200px;
+    top: 140px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+    }
+    .p2{
+        position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left:0px;
+    top: -10px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    
+    text-align: center;
+    
+    color: #9AABD8;
+    
+    }
+    
+    .plus-three-point{
+        box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: -150px;
+    top: 140px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+    }
+    .p3{
+        position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left:0px;
+    top: -10px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    
+    text-align: center;
+    
+    color: #9AABD8;
+    
+    }
+    .p1-g{
+    
+    color: #9AABD8;
+    bottom: 10px;
+    }
+    .p2-g{
+    color: #9AABD8;
+    top: -10px;
+    }
+    .p3-g{
+    color: #9AABD8;
+    top: -10px;
+    }
